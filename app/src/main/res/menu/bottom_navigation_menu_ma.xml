@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/geoLookupItem"
+        android:icon="@drawable/baseline_map_24"
+        android:title="@string/Geo_lookup" />
+    <item
+        android:id="@+id/filterItem"
+        android:icon="@drawable/baseline_filter_list_24"
+        android:title="@string/Filter" />
+    <item
+        android:id="@+id/addHouseItem"
+        android:icon="@drawable/baseline_add_home_24"
+        android:title="@string/add_home" />
+    <item
+        android:id="@+id/contactItem"
+        android:icon="@drawable/baseline_contact_mail_24"
+        android:title="@string/Contact" />
+</menu>

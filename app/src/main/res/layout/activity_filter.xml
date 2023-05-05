@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/filterCL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".Filter">
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/HeaderAppNameStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Filter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        style="@style/NormalStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/max_price"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView6"
+        style="@style/NormalStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="@string/minimum_bedrooms"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView9"
+        style="@style/NormalStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="@string/minimum_bathrooms"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <EditText
+        android:id="@+id/minimumBathroomsEditText"
+        android:layout_width="198dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+        android:hint="@string/Enter_Whole_Number"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/textView9"
+        app:layout_constraintTop_toTopOf="@+id/textView9" />
+
+    <EditText
+        android:id="@+id/minimumBedroomsEditText"
+        android:layout_width="198dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+        android:hint="@string/Enter_Whole_Number"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toTopOf="@+id/textView6" />
+
+    <EditText
+        android:id="@+id/maxPriceEditText"
+        android:layout_width="211dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+        android:hint="@string/Enter_Whole_Number"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/textView5"
+        app:layout_constraintTop_toTopOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/clearFilterButton"
+        style="@style/ButtonStyle2"
+        android:layout_width="398dp"
+        android:layout_height="54dp"
+        android:text="@string/Clear_Filter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/setFilterButton"
+        style="@style/ButtonStyle2"
+        android:layout_width="398dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="50dp"
+        android:text="@string/Set_Filter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

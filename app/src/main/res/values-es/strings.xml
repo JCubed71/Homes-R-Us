@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Homes R Us(es)</string>
+    <string name="Login">Login(es)</string>
+    <string name="Register">Register(es)</string>
+    <string name="Dont_have_account">Don`t have an account? Sign up here(es)</string>
+    <string name="Email">Email(es)</string>
+    <string name="Password">Password(es)</string>
+    <string name="Phone">Phone Number(es)</string>
+    <string name="first_name">First Name(es)</string>
+    <string name="last_name">Last Name(es)</string>
+    <string name="phone_format">(ex. 8889990000)(es)</string>
+    <string name="Homes_For_You">Homes For You!(es)</string>
+    <string name="latitude">latitude(es)</string>
+    <string name="longitude">longitude(es)</string>
+    <string name="Bedrooms">Bedrooms:(es)</string>
+    <string name="Bathrooms">Bathrooms:(es)</string>
+    <string name="Profile">Profile(es)</string>
+    <string name="Notifications">Notifications(es)</string>
+    <string name="add_home">Add House(es)</string>
+    <string name="Filter">Filter(es)</string>
+    <string name="Settings">Settings(es)</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment(es)</string>
+    <string name="title_activity_filter">Filter(es)</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment(es)</string>
+    <string name="second_fragment_label">Second Fragment(es)</string>
+    <string name="next">Next(es)</string>
+    <string name="previous">Previous(es)</string>
+
+    <string name="hello_first_fragment">Hello first fragment(es)</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s(es)</string>
+    <string name="minimum_bedrooms">Minimum bedrooms:(es)</string>
+    <string name="minimum_bathrooms">Minimum bathrooms:(es)</string>
+    <string name="max_price">Max Price:(es)</string>
+    <string name="minimum_bedrooms_description">Enter here the minimum number of bedrooms(ex. 3)(es)</string>
+    <string name="minimum_bathrooms_description">Enter here the minimum number of bathrooms(ex. 2)(es)</string>
+    <string name="maximum_price">Enter the max price (ex. 750000)(es)</string>
+    <string name="Map_zoom">Map Zoom(es)</string>
+    <string name="Map_zoom_description">Enter the map zoom (ex. 15)(es)</string>
+    <string name="Enter_Whole_Number">Enter Whole Number (ex.5)(es)</string>
+    <string name="Set_Filter">Set Filter(es)</string>
+    <string name="Clear_Filter">Clear Filter(es)</string>
+    <string name="Add_House">Add House(es)</string>
+    <string name="List_a_house">List a home for sale on our platform!(es)</string>
+    <string name="Address">Address(es)</string>
+    <string name="Price">Price(es)</string>
+    <string name="Geo_lookup">Geo Lookup(es)</string>
+    <string name="Geo_lookup_description">Enter longitude and Latitude to see map view(es)</string>
+    <string name="Search">Search(es)</string>
+    <string name="Go">Go!(es)</string>
+    <string name="Back">Back(es)</string>
+    <string name="settings">Settings(es)</string>
+    <string name="Sign_out">Sign Out(es)</string>
+    <string name="Dark_Mode">Dark Mode(es)</string>
+    <string name="Number_Of_Listed_Houses">Number of Listed Homes:(es) </string>
+    <string name="Contact">Contact(es)</string>
+    <string name="Contact_Info">Contact Info:(es) </string>
+    <string name="enter_address_for_contact">Enter address to get homeowner contact info(es)</string>
+</resources>
